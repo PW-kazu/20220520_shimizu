@@ -139,3 +139,14 @@ dt {
 .text6 {
   text-align: center;
 }
+
+.flex1 {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.img-about {
+  width: 30%;
+  height: 20%;
+}
