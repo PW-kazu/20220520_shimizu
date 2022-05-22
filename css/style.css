@@ -111,6 +111,18 @@ dt {
   text-decoration: none;
 }
 
+.news__lists {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.news__list {
+  padding: 1rem 0;
+  border-bottom: 1px solid;
+}
+
 .section2 {
   margin: 0 auto;
   width: 85%;
@@ -118,4 +130,12 @@ dt {
 
 .section3 {
   background-color: #EEEEEE;
+}
+
+.text5 {
+  text-align: center;
+}
+
+.text6 {
+  text-align: center;
 }
