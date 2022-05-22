@@ -1,0 +1,116 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  
+}
+
+
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.estra-logo {
+  width: 10%;
+  height: 40%;
+  margin: 0;
+  left: 0;
+}
+.list-text {
+  color: gray;
+}
+
+.relative1 {
+  position: relative;
+}
+
+.firstview {
+  margin: 0 0 0 auto;
+    display: block;
+    width: 50%;
+}
+
+.absolute1 {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  font-size: 50px;
+}
+
+.absolute2 {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  font-size: 30px;
+}
+.span1 {
+  color:#b31566 ;
+}
+
+.span2 {
+  color:#049fb3 ;
+}
+
+.text1 {
+  font-size: 25px;
+  font-weight: bold
+}
+
+.text2{
+  font-size: 15px;
+  color: #CCCCCC;
+}
+
+.relative2 {
+  position: relative;
+}
+
+.absolute3{
+  position: absolute;
+  left: 25%;
+}
+
+
+.text3 {
+  color: #CCCCCC;
+  font: 10px;
+}
+
+.text4 {
+  font-weight: bold;
+  color:#777777 ;
+}
+
+dl {
+  width: 1000px;
+
+}
+
+dt {
+  
+  border-bottom: 1px solid #ccc;
+  float: left;
+  padding: 10px 5px;
+}
+
+.news {
+  background-color:#b31566;
+  border-radius: 30px;
+  color: #fff;
+  margin: 0 20px;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.section2 {
+  background-color: #EEEEEE;
+  
+}
