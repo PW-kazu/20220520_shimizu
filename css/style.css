@@ -87,6 +87,7 @@
 .text4 {
   font-weight: bold;
   color:#777777 ;
+  font-size: large;
 }
 
 dl {
@@ -111,6 +112,10 @@ dt {
 }
 
 .section2 {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.section3 {
   background-color: #EEEEEE;
-  
 }
