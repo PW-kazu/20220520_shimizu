@@ -132,21 +132,48 @@ dt {
   background-color: #EEEEEE;
 }
 
-.text5 {
+p {
   text-align: center;
 }
 
-.text6 {
-  text-align: center;
-}
 
 .flex1 {
   display: flex;
   justify-content: space-around;
-  
 }
 
 .img-about {
   width: 30%;
   height: 20%;
+}
+
+.span3 {
+  color: #b31566;
+  font-weight: lighter;
+}
+
+.span4 {
+  color: #808080;
+  font-weight: bolder;
+}
+
+.glid1__parent {
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 400px 400px;
+}
+
+.box1 {
+  grid-column: 1;
+  grid-row: 1/2;
+}
+
+.box2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.box3 {
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
