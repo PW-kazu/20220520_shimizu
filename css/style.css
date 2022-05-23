@@ -34,8 +34,8 @@
 
 .firstview {
   margin: 0 0 0 auto;
-    display: block;
-    width: 50%;
+  display: block;
+  width: 50%;
 }
 
 .absolute1 {
@@ -229,10 +229,45 @@ img {
   width: 200px;
   padding: 10px 0;
   border-radius: 30px;
-  border-color: #b31566;
+  background-color: white;
   text-align: center;
   color: #b31566;
   margin: 100px auto 0;
   display: block;
-  background-color: white;
+  border: #b31566 1px solid;;
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+table th {
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+.table-position {
+  position: relative;
+  left: 25%;
+  top:30% ;
+
+}
+
+.backscrean {
+  display: flex;
+}
+
+.back-screen1 {
+  background-image: url(../img/recruit.png);
+}
+
+.back-screen2 {
+  background-image: url(../img/interview.png);
 }
