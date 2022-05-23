@@ -159,34 +159,25 @@ p {
 
 .grid1 {
   display: grid;
-  grid-template-rows: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr ;
   grid-template-columns: 400px 400px;
-}
-
-.box1 {
-  grid-column: 1;
-  grid-row: 1/2;
-}
-
-.box2 {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.box3 {
-  grid-column: 1/2;
-  grid-row: 1/2;
 }
 
 .service_grid_item_first {
   background-color: #b31566;
+  grid-column: 1/4;
+  grid-row: 1/2;
 }
 
 .service_grid_item_second {
   background-color: #CC33CC;
+  grid-column: 1/4;
+  grid-row: 3/4;
 }
 
 .service_grid_item_third {
   background-color: #CC33FF;
+  grid-column: 3/4;
+  grid-row: 3/4;
 }
 
