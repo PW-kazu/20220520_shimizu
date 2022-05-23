@@ -157,7 +157,7 @@ p {
   font-weight: bolder;
 }
 
-.glid1 {
+.grid1 {
   display: grid;
   grid-template-rows: 1fr 1fr ;
   grid-template-columns: 400px 400px;
@@ -177,3 +177,16 @@ p {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
+.service_grid_item_first {
+  background-color: #b31566;
+}
+
+.service_grid_item_second {
+  background-color: #CC33CC;
+}
+
+.service_grid_item_third {
+  background-color: #CC33FF;
+}
+
